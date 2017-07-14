@@ -1,6 +1,6 @@
 {
-	"applicationKey":	"--insert application key--",
-	"userToken":		"--insert user token--",
+	"applicationKey":	"16cc006c519c63d88d3370f93b14cd63",
+	"userToken":		"b7569a792b48e199c16bf2d32a6bc5b9d7647594b3fe9a142df875518b947354",
 	"boardId":			"--insert board id--",
 	"port":             8008,
 	"template":			"default.template",

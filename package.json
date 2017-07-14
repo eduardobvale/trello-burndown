@@ -26,6 +26,7 @@
     "optimist": ">=0.3.4",
     "qs": ">=0.5.3",
     "serve-static": ">=1",
+    "trello": "^0.7.0",
     "trello_ex": ">=0.2.0",
     "url": ">=0.7.9",
     "xcharts": ">=0.1.3"
