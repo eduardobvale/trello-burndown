@@ -27,5 +27,9 @@ if (!fs.existsSync(settings.configPath)) {
 	fs.mkdirSync(settings.configPath);
 }
 
+console.log('\n\x1b[33m%s\x1b[0m', 'Starting server...\nAvailable on:')
+console.log('  http://localhost:\x1b[32m8008');
+console.log('\x1b[31mHit CTRL-C to stop the server');
+
 var server = require('./lib/server');
 require('http').createServer(server).listen(settings.port);

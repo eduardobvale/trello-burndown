@@ -19,15 +19,16 @@
     "url": "git://github.com/devtyr/trello-burndown.git"
   },
   "dependencies": {
-    "trello_ex": ">=0.2.0",
-    "optimist": ">=0.3.4",
-    "xcharts": ">=0.1.3",
-    "mime": ">=1.2.7",
     "connect": ">=3",
-    "serve-static": ">=1",
+    "fermata": "^0.11.0-beta1",
+    "mime": ">=1.2.7",
+    "mu2": ">=0.5.17",
+    "optimist": ">=0.3.4",
     "qs": ">=0.5.3",
+    "serve-static": ">=1",
+    "trello_ex": ">=0.2.0",
     "url": ">=0.7.9",
-    "mu2": ">=0.5.17"
+    "xcharts": ">=0.1.3"
   },
   "engines": {
     "node": ">= 0.8.0"
