@@ -17,7 +17,7 @@
 
 		<style>
 	      body {
-	        padding-top: 60px; 
+	        padding-top: 60px;
 	      }
 	    </style>
 
@@ -34,7 +34,7 @@
 		{{>menu.template}}
 
 		<div class="container">
-			
+
 			<h2>Add new sprint</h2>
 
 			<div class="alert alert-error" data-bind="visible: isErrorMessageVisible">
@@ -46,7 +46,7 @@
 				<button type="button" class="close" data-dismiss="alert">&times;</button>
 				<strong>Well done! </strong><span data-bind="text: message"></span>
 			</div>
-			
+
 			<form class="form-horizontal" data-bind="submit: addSprint">
 				<div class="control-group">
 					<label class="control-label" for="inputName">Sprint name</label>
@@ -58,12 +58,30 @@
 					<label class="control-label" for="inputName">Board ID</label>
 					<div class="controls">
 						<input class="input-xxlarge" id="inputName" type="text" placeholder="Defaults to that set in settings.json" data-bind="value: sprint.boardId">
+						<!-- <div class="dropdown">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Board
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">HTML</a></li>
+						    <li><a href="#">CSS</a></li>
+						    <li><a href="#">JavaScript</a></li>
+						  </ul>
+						</div> -->
 					</div>
 				</div>
 				<div class="control-group">
 					<label class="control-label" for="listName">List names</label>
 					<div class="controls">
 						<input class="input-xlarge" id="listName" type="text" placeholder="Name of list" data-bind="value: currentList">
+						<!-- <div class="dropdown">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">HTML</a></li>
+						    <li><a href="#">CSS</a></li>
+						    <li><a href="#">JavaScript</a></li>
+						  </ul>
+						</div> -->
 						<a href="#" data-bind="click: addSprintList">Add</a>
 					</div>
 					<div class="controls" data-bind="visible: sprint.lists().length > 0">
@@ -117,6 +135,7 @@
 				</div>
 				<div class="control-group">
 					<div class="controls">
+						<a href="/" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
 						<button type="submit" class="btn">Save</button>
 					</div>
 				</div>
@@ -130,9 +149,9 @@
 
 				$(document).ready(function() {
 					$('#dateRange').daterangepicker();
-					
+
 					$('#dateRange').blur(function() {
-						updateSprintRange();	
+						updateSprintRange();
 					});
 
 					$('#standupTimeDiv').datetimepicker({

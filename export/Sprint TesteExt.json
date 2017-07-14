@@ -1,8 +1,49 @@
 {
-    "unfinishedItems": [],
+    "unfinishedItems": [
+        {
+            "name": "(1) Anotação de Viagens Astrais",
+            "url": "https://trello.com/c/QxUTLIrC"
+        },
+        {
+            "name": "(1) Técnicas",
+            "url": "https://trello.com/c/30dxOL3R"
+        },
+        {
+            "name": "(1) Informação/ O que é?",
+            "url": "https://trello.com/c/OaF9svrJ"
+        },
+        {
+            "name": "(2) Backup/Restauração",
+            "url": "https://trello.com/c/PCowix8G"
+        },
+        {
+            "name": "(5) Dicas",
+            "url": "https://trello.com/c/mjDl3eF1"
+        },
+        {
+            "name": "(5) Alarmes",
+            "url": "https://trello.com/c/3wZynNNk"
+        },
+        {
+            "name": "(8) Conquistas/Badges",
+            "url": "https://trello.com/c/fLqOzZKu"
+        },
+        {
+            "name": "(13) Meditação/Técnica Guiada",
+            "url": "https://trello.com/c/WJIMFMsT"
+        },
+        {
+            "name": "(13) Estatísticas/Gráficos",
+            "url": "https://trello.com/c/AT2mUazr"
+        },
+        {
+            "name": "(21) Socialização",
+            "url": "https://trello.com/c/VMFOd5ol"
+        }
+    ],
     "statisticsSummary": {
-        "totalEstimate": 0,
-        "openEstimate": 0,
+        "totalEstimate": 70,
+        "openEstimate": 70,
         "effort": 0
     }
 }

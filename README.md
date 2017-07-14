@@ -1,6 +1,10 @@
-# trello-burndown
+# TrelloScrum
 
 Generate a burndown chart from trello cards.
+
+## TO-DO
+
+* [ ] Automatically Browser Refresh
 
 ## Features
 
