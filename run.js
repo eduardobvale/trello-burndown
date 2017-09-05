@@ -7,7 +7,7 @@
 var fs = require('fs');
 var path = require('path');
 
-global.settings = require('./settings');
+global.settings = require('./settings/settings');
 settings.root   = __dirname.replace(/\/+$/, "");
 settings.exportPath = path.join(settings.root, 'export');
 settings.configPath = path.join(settings.root, 'config');

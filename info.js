@@ -10,7 +10,7 @@ var options = require('optimist')
 			  .describe('List all boards available for current member');
 
 var optionArgs = options.argv;
-global.settings = require('./settings');
+global.settings = require('./settings/settings');
 
 var Trello = require('trello');
 var trello = new Trello(global.settings.applicationKey, global.settings.userToken);
